@@ -21,7 +21,7 @@ blockBuildWhenUpstreamBuilding: false
 blockBuildWhenDownstreamBuilding: false
 hasCustomWorkspace: false
 !key:by-name Build periodically:
-  spec: * * * * *
+  spec: "* * * * *"
 builder:
   command: echo "test build"
   $class: !shell
