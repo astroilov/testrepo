@@ -20,9 +20,8 @@ scmCheckoutRetryCount: 0
 blockBuildWhenUpstreamBuilding: false
 blockBuildWhenDownstreamBuilding: false
 hasCustomWorkspace: false
-!key:by-name Poll SCM:
-  scmpoll_spec: * * * * *
-  ignorePostCommitHooks: false
+!key:by-name Build periodically:
+  spec: * * * * *
 builder:
   command: echo "test build"
   $class: !shell
