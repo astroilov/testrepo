@@ -24,7 +24,8 @@ public class App
          *
          *
          */
-        new RuntimeException();
+        int x = 1;
+        x = x;
         /*
          *
          *
