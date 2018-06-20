@@ -10,6 +10,8 @@ public class App
     {
       new RuntimeException();
         System.out.println( "Hello World!" );
+        int x = 1;
+        x = x;
         /*
          * some
          * code
@@ -23,17 +25,17 @@ public class App
          *
          *
          *
+         *
+         *
+         *
+         *
+         *
+         *
+         *
+         *
          */
-        new RuntimeException();
+        new IllegalArgumentException();
         /*
-         *
-         *
-         *
-         *
-         *
-         *
-         *
-         *
          *
          *
          *
