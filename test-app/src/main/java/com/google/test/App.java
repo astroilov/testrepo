@@ -23,9 +23,6 @@ public class App
          *
          *
          *
-         */
-        new RuntimeException();
-        /*
          *
          *
          *
@@ -41,6 +38,8 @@ public class App
          *
          *
          */
+        int i = 1;
+        i = i;
         new RuntimeException();
     }
 }
