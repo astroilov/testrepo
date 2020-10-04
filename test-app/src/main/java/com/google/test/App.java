@@ -6,6 +6,9 @@ package com.google.test;
  */
 public class App
 {
+    
+    private void Foo() { }
+    
     public static void main( String[] args )
     {
       new RuntimeException();
